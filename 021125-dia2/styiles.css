@@ -1,0 +1,63 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #007bff;
+    transition: background-color 0.5s esase;
+}
+
+/* Encabezado */
+header {
+    background-color: #007bff;
+    color: white;
+    padding: 20px;
+    font-size: 24px;
+}
+
+/* Contenedor principal */
+.container {
+    display: inline-block;
+    background-color: #fff;
+    margin: 20px auto;
+    background: white;
+    padding: 20px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+/* Estilos para los títulos */
+h1{
+    font-size: 2 rem;
+    color: #333f;
+}   
+
+p{
+    font-size: 1 rem;
+    color: rgb(241, 234, 234);
+}
+
+.parrafo_verde{
+    color: green; 
+}
+
+/* Botón de ejemplo */
+button {
+    display: inline-block;
+    padding: 15px 32px;
+    margin-top: 20px;
+    background-color: #4CAF50;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3 ease;
+}
+
+button:hover {
+    background-color: #f34f0e;
+}
